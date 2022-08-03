@@ -9,7 +9,7 @@ Když zapnete klienta uvidíte tuto obrazovku:
 
 ![](img/main-menu.jpg "Hlavní menu")
 
-- \[1\] [osu! sušenka](/wiki/Client/Interface/Cookie). Po kliknutí na ní se zobrazí hlavní menu. Pulsuje podle [BPM](/wiki/Beatmapping/Beats_per_minute) aktuálně hrající písničky, kolem se roztahují sloupce vizualizéru audia. Pokud nehraje žádná písnička pulsuje na 60 BPM.
+- \[1\] [osu! Cookie](/wiki/Client/Interface/Cookie). Po kliknutí na ní se zobrazí hlavní menu. Pulsuje podle [BPM](/wiki/Beatmapping/Beats_per_minute) aktuálně hrající písničky, kolem se roztahují sloupce vizualizéru audia. Pokud nehraje žádná písnička pulsuje na 60 BPM.
 - \[2\] Klikněte `Play` (nebo stiskněte `P`) pro hraní osu!, hrát se dá sám nebo s druhými.
 - \[3\] Klikněte `Edit` (nebo stiskněte `E`) pro editování [beatmapy](/wiki/Beatmap).
 - \[4\] Klikněte `Options` (nebo stiskněte `O`) pro otevření postranního panelu [nastavení](/wiki/Client/Options).
@@ -26,7 +26,7 @@ Když zapnete klienta uvidíte tuto obrazovku:
 
 Herní přehrávač má následující tlačítka:
 
-| Button | Description |
+| Tlačítko | Popis |
 | :-: | :-- |
 | ![](img/jukebox/previous-track.jpg "Previous track") | Minulá skladba |
 | ![](img/jukebox/play.jpg "Play") | Play |
@@ -42,12 +42,12 @@ Herní přehrávač se dá navíc ovládat pomocí [klávesových zkratek](/wiki
 
 ![](img/user-options.jpg "User options")
 
-Zpřístupníte klikntuním na váš profil vlevo nahoře v hlavním menu. Položky můžete vybírat pomocí přiřazeného čísla nebo kliknutím:
+Zpřístupníte kliknutím na váš profil vlevo nahoře v hlavním menu. Položky můžete vybírat pomocí přiřazeného čísla nebo kliknutím:
 
-- `1. View Profile`: Zobrazí váš profil na webové stránce.
-- `2. Sign Out`: Odhlásí vás z vašeho účtu. Po odhlášení vás hra bude žádat o opětovné přihlášení.
-- `3. Change Avatar`: Otevře [stránku na úpravu avataru](https://osu.ppy.sh/home/account/edit#avatar).
-- `4. Close`: Zavře dialog.
+- `1. Zobrazit profil`: Zobrazí váš profil na webové stránce.
+- `2. Odhlásit se`: Odhlásí vás z vašeho účtu. Po odhlášení vás hra bude žádat o opětovné přihlášení.
+- `3. Změnit profilový obrázek`: Otevře [stránku na úpravu avataru](https://osu.ppy.sh/home/account/edit#avatar).
+- `4. Zavřít`: Zavře dialog.
 
 ## Play menu
 
@@ -65,7 +65,7 @@ Po vybrání `Play` v hlavním menu, dostanete tři možnosti:
 
 ![](img/multi-lobby.jpg "Multiplayer lobby")
 
-Místnost pro více hráčů, anglicky "Multiplayer lobby",umožnuje hrát spolu nebo proti ostatním hráčům.
+Místnost pro více hráčů, anglicky "Multiplayer lobby", umožnuje hrát spolu nebo proti ostatním hráčům.
 
 ## Výběr skladeb
 
@@ -85,7 +85,7 @@ Jelikož má tato obrazovka příliš mnoho elementů na to aby byla po očíslo
 
 ![](img/metadata-comparison.jpg)
 
-Tato část zobrazuje **informace o aktuálně vybrané obtížnosti.** Po vstupu do obrazovky výběru skladeb se automaticky vybírá skladba která hrála v hlavním menu. Ikona vlevo nahoře reprezentuje [kategorii beatmapy](/wiki/Beatmap/Category), která je na tomto obrázku [hodnocená](/wiki/Beatmap/Category#ranked).
+Tato část zobrazuje **informace o aktuálně vybrané obtížnosti.** Po vstupu do obrazovky výběru skladeb se automaticky vybírá skladba která hrála v hlavním menu. Ikona vlevo nahoře reprezentuje [status beatmapy](/wiki/Beatmap/Category), která je na tomto obrázku [hodnocená](/wiki/Beatmap/Category#ranked).
 
 Název skladby se normálně ukazuje romanizovaně (dolní obrázek), ale pokud zapnete v [Nastavení](/wiki/Client/Options) možnost `Preferovat metadata v originálním jazyce`, název se ukáže v unicódu (horní obrázek). Název obtížnosti je mezi hranatými závorkami (`[]`). Tvůrce mapy je pod názvem mapy, níže najdeme další informace. Zleva doprava, hodnoty jsou:
 
@@ -150,56 +150,56 @@ Seřadí mapy v určitém řádu.
 
 *Poznámka: Při hledání nemůžete mít otevřený chat nebo postraní panel nastavení, pokud tomu tak bude všechno co napíšete bude vnímáno jako chatovací text nebo hledání v postraním panelu nastavení. *
 
-Only beatmaps that match the criteria of your search will be shown. By default, any search will be matched against the beatmaps' artists, titles, creators, and tags.
+Po vyhledání se zobrazí pouze beatmapy splňující vámi zadanými kritérii. Ve výchozím stavu bude každé hledání srovnáváno s umělci, názvy, autory, a tagy beatmapy.
 
-In addition to searching these fields, you can use filters to search through other metadata by combining one of the supported filters with a comparison to a value (for example, `ar=9`).
+Kromě hledání jste taky schopni používat filtry, pomocí kterých můžete hledat v dalších metadatech, a to spojením jednoho z podporovaných filtrů se srovnávacím znaménkem a hodnotou(např. `ar=9`).
 
-Supported filters:
+Podporované filtry:
 
-| Filter | Description |
+| Filtr | Popis |
 | :-: | :-- |
-| `artist` | Name of the artist |
-| `creator` | Name of the beatmap creator |
-| `title` | Name of the track |
-| `difficulty` | Name of the beatmap difficulty |
+| `artist` | Název umělce |
+| `creator` | Název autora |
+| `title` | Název skladby |
+| `difficulty` | Název obtížnosti |
 | `ar` | [Approach Rate](/wiki/Beatmapping/Approach_rate) |
 | `cs` | [Circle Size](/wiki/Beatmapping/Circle_size) |
 | `od` | [Overall Difficulty](/wiki/Beatmapping/Overall_difficulty) |
 | `hp` | [HP drain rate](/wiki/Beatmapping/HP_drain_rate) |
-| `key`, `keys` | Number of keys (osu!mania and converted beatmaps only) |
+| `key`, `keys` | Počet kláves (pouze beatmapy osu!mania nebo jejich koverty) |
 | `star`, `stars` | [Star rating](/wiki/Beatmapping/Star_rating) |
-| `bpm` | Beats per minute |
-| `length` | Length in seconds |
-| `drain` | [Drain time](/wiki/Gameplay/Drain_time) in seconds |
-| `mode` | Game mode. This can be one of `osu`, `taiko`, `catch`, or `mania`, or `o`/`t`/`c`/`m` for short. |
-| `status` | Beatmap status. Value can be `ranked`, `approved`, `pending`, `notsubmitted`, `unknown`, or `loved`, or `r`/`a`/`p`/`n`/`u`/`l` for short. |
-| `played` | Time since last played in days |
-| `unplayed` | Shows only unplayed maps. A comparison with no set value must be used (e.g. `unplayed=`). The comparison itself is ignored. |
-| `speed` | Saved osu!mania scroll speed. Always 0 for unplayed maps or if the [`Remember osu!mania scroll speed per beatmap`](/wiki/Client/Options#gameplay) option is off. |
+| `bpm` | BPM, *úhozy za minutu* |
+| `length` | Délka v sekundách |
+| `drain` | [Drain time](/wiki/Gameplay/Drain_time) v sekundách |
+| `mode` | Herní mód. Může být `osu`, `taiko`, `catch`, nebo `mania`, nebo `o`/`t`/`c`/`m` ve zkratkách. |
+| `status` | Status beatmapy. Může být `ranked`, `approved`, `pending`, `notsubmitted`, `unknown`, nebo `loved`, nebo `r`/`a`/`p`/`n`/`u`/`l` ve zkratkách. |
+| `played` | Čas uběhlý od posledního zahrání ve dnech. |
+| `unplayed` | Zobrazí pouze nehrané mapy. Musí se použít porovnání bez hodnoty (např. `unplayed=`). Porovnání je ignorováno. |
+| `speed` | Uložená rychlost beatmapy v osu.manii. Pro nehrané mapy vždy 0 nebo pokud je možnost [`Pamatovat si na osu!manii rychlost dráhy`](/wiki/Client/Options#gameplay) vypnutá. |
 
-Supported comparisons:
+Podporovaná srovnání:
 
-| Comparison | Description |
+| Srovnání | Popis |
 | :-: | :-- |
-| `=` or `==` | Equal to |
-| `!=` | Not equal to |
-| `<` | Less than |
-| `>` | Greater than |
-| `<=` | Less than or equal to |
-| `>=` | Greater than or equal to |
+| `=` nebo `==` | Je rovno |
+| `!=` | Není rovno |
+| `<` | Méně než |
+| `>` | Více než |
+| `<=` | Méně nebo rovno |
+| `>=` | Více nebo rovno |
 
-You may also enter a difficulty or beatmap ID number in your search to get a single result.
+Můžete také vyhledat ID číslo obtížnosti a dostat jeden výsledek, tedy pokud hledanou mapu máte.
 
-### Rankings
+### Žebříčky
 
 ![](img/leaderboards.jpg)
 
- A variety of things can appear in this space:
+ V této části se může nacházet mnoho věcí:
 
-- A `Not Submitted` box denotes a beatmap that has not been uploaded to the osu! website using the [Beatmap Submission System](/wiki/Submission) or was deleted by the mapper.
-- An `Update to latest version` box appears if there is a new version of the beatmap available for download. Click on the button to update.
-  - *Notice: Once you update the beatmap, the local scores on it will be wiped. Replays for local scores can be exported by right-clicking them.*
-- A `Latest pending version` box means that the beatmap has been uploaded to the osu! website but is not ranked yet.
+- Oznámení `Not Submitted` oznamuje že beatmapa nebyla nahrána na osu! webovou stránku pomocí [Beatmap Submission System](/wiki/Submission) nebo byla vymazána autorem.
+- Oznámení `Update to latest version` se ukáže pokud je pro beatmapu dostupná nová verze. Klikněte pro stáhnutí aktualizace.
+  - *Upozornění: Po aktualizaci mapy se vymažou veškerá lokální scóre na mapě. Replaye se dají uložit pravým kliknutím na scóre.*
+- Oznámení `Latest pending version` znamená že mapa sice je nahraná na osu! webovou stránku, ale není hodnocená.
 - If replays matching the view setting of the beatmap exist, they will be displayed instead of a box denoting the ranked/played status of the beatmap. This is shown in the above picture.
   - Under public rankings (e.g. Global, Friends, etc.), your high score will be shown at the bottom, as well as your rank on the leaderboard.
 - A `No records set!` box means that there are no replays for the current view setting (this is typically seen in the local view setting if you just downloaded or edited the beatmap).
