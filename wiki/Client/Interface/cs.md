@@ -193,62 +193,62 @@ Můžete také vyhledat ID číslo obtížnosti a dostat jeden výsledek, tedy p
 
 ![](img/leaderboards.jpg)
 
- V této části se může nacházet mnoho věcí:
+ V žebříčcích se mohou nacházet:
 
 - Oznámení `Not Submitted` oznamuje že beatmapa nebyla nahrána na osu! webovou stránku pomocí [Beatmap Submission System](/wiki/Submission) nebo byla vymazána autorem.
 - Oznámení `Update to latest version` se ukáže pokud je pro beatmapu dostupná nová verze. Klikněte pro stáhnutí aktualizace.
   - *Upozornění: Po aktualizaci mapy se vymažou veškerá lokální scóre na mapě. Replaye se dají uložit pravým kliknutím na scóre.*
 - Oznámení `Latest pending version` znamená že mapa sice je nahraná na osu! webovou stránku, ale není hodnocená.
-- If replays matching the view setting of the beatmap exist, they will be displayed instead of a box denoting the ranked/played status of the beatmap. This is shown in the above picture.
-  - Under public rankings (e.g. Global, Friends, etc.), your high score will be shown at the bottom, as well as your rank on the leaderboard.
-- A `No records set!` box means that there are no replays for the current view setting (this is typically seen in the local view setting if you just downloaded or edited the beatmap).
+- Pokud existují replaye, respektive skóre, odpovídající nastavení žebříčkům, budou zobrazeny namísto ostatních oznámení. Toto je možno vidět na obrázku výše.
+  - Pod veřejnými žebříčky (např. Globální, Státní, etc.), je zobrazeno vaše nejlepší skóre i s vašim umístěním na žebříčku beatmapy.
+- Oznámení `No records set!` znamená že pro aktuální nastavení žebříčku nejsou žádné replaye dostupné (najčastěji se objevuje v lokálním žebříčku pokud byla beatmapa právě stáhnuta nebo změnena).
 
-These are the view settings:
+Zde jsou všechna nastavení žebříčku:
 
-- Local Ranking
-- Country Ranking\*
-- Global Ranking
-- Global Ranking (Selected Mods)\*
-- Friend Ranking\*
+- Lokální
+- Státní\*
+- Globální
+- Globální (podle zvoleného módu)\*
+- Přátelé\*
 
-\*Requires [osu!supporter](/wiki/osu!supporter).
+\*Vyžaduje [osu!supporter](/wiki/osu!supporter).
 
-Click the word bubble icon to call up the **quick web access** screen for the selected beatmap:
+Kliknutím na ikonu bublin se vyvolá  **rychlý webový přístup k této beatmapě**:
 
-- Press `1` or click the `Beatmap Listing/Scores` to view the beatmap page for the selected difficulty in your browser.
-- Press `2` or click `Beatmap Modding` to view the beatmap's [modding](/wiki/Modding) page.
-- Press `3` or `Esc` or click `Cancel` to return to the song selection screen.
+- Stiskněte `1` nebo klikněte na `Beatmap Listing/Scores` pro otevření stránky beatmapy ve vašem webovém prohlížeči.
+- Stiskněte `2` nebo klikněte na `Beatmap Modding` pro otevření [modding](/wiki/Modding) stránky beatmapy.
+- Stiskněte `3`, `Esc` nebo klikněte na `Cancel` pro vrácení do obrazovky výběru skladby.
 
-### Beatmap carousel
+### Beatmap menu
 
 ![](img/beatmap-cards.jpg)
 
-The beatmap carousel displays all available beatmaps. Different beatmaps may have differently coloured boxes:
+Beatmapové menu zobrazuje všechny dostupné beatmapy. Odlišné beatmapy mohou mít jiné barvy:
 
-| Box colour | Description |
+| Barva boxu | Popis |
 | :-: | :-- |
-| **Pink** | This beatmap has not been played yet. |
-| **Orange** | At least one difficulty from the beatmap has been completed. |
-| **Light Blue** | Other difficulties in the same beatmap, shown when a beatmap is expanded. |
-| **White** | Currently selected difficulty. |
+| **Růžová** | Tato beatmapa nebyla dosud hrána. |
+| **Oranžová** | Alespoň jedna obtížnost beatmapy byla dokončena. |
+| **Světle modrá** | Beatmapa má více než jednu obtížnost. |
+| **Bílá** | Aktuálně vybraná obtížnost. |
 
-You can navigate the beatmap list by using the mouse wheel, using the up and down arrow keys, dragging it while holding the left mouse button or clicking the right mouse button (known as absolute scrolling), which will move the scroll bar to your mouse's Y position. Click on a beatmap to select it, then click it again, press `Enter` or click the osu! cookie at the bottom-right corner to play the beatmap.
+Seznam beatmap můžete posunovat kolečkem u myši, kurzorovými klávesami, tažením a podržením levého tlačítka myší nebo držením pravého tlačítka myši (známé jako absolutní scrollování), které posune seznam na Y pozici myši. Kliknutím na mapu vyberete mapu, poté ji klikněte znovu, nebo stiskněte `Enter` nebo klikněte osu! cookie v pravém dolním rohu pro spuštění beatmapy.
 
-### Gameplay toolbox
+### Herní nástroje
 
-![](img/game-mode-selector.jpg "List of available game modes")
+![](img/game-mode-selector.jpg "Seznam dostupných herních módů")
 
 ![](img/gameplay-toolbox.jpg)
 
-This section can be called the gameplay toolbox. We will cover each button's use from left to right.
+Tato část se může nazývat Sadou Herních Nástrojů. Budeme se věnovat jednotlivým tlačítkům zleva doprava.
 
-Press `Esc` or click the `Back` button to return to main menu.
+Stikněte `Esc` nebo klikněte tlačítko `Back` pro vrácení do hlavního menu.
 
-Click on the `Mode` button to open a list of game modes available in osu!. Alternatively, you can press `Ctrl` and `1` (osu!), `2` (osu!taiko), `3` (osu!catch), or `4` (osu!mania) to change the game mode. Switching to another mode will also switch to its [leaderboards](/wiki/Ranking), as one may observe by seeing the displayed rank change.
+Klikněte na tlačítko `Mode` a otevře se vám seznam herních módů v osu!. Alternativně můžete stisknout `Ctrl` společně s `1` (osu!), `2` (osu!taiko), `3` (osu!catch), nebo `4` (osu!mania) a změnit tím herní mód. Přepnutím do jiného herního módu se přepnou i [žebříčky](/wiki/Ranking), což lze také vidět na změně vašeho ranku.
 
-![](img/game-modifiers.jpg "Mod selection screen")
+![](img/game-modifiers.jpg "Okno výběru modifikací")
 
-Click the `Mods` button or press `F1` to open the **[mod selection screen](/wiki/Game_modifier)**.
+Klikněte na tlačítko `Mods` nebo stiskněte `F1` pro otevření **[okno výběru modifikací](/wiki/Game_modifier)**.
 
 In this screen, you can apply modifications ("mods" for short) to gameplay. Some mods lower difficulty and apply a multiplier that lowers the score you achieve. Conversely, some mods increase the difficulty, but apply a multiplier that increases the score you achieve. Finally, some mods modify gameplay in a different way. [Relax](/wiki/Game_modifier/Relax) and [Auto Pilot](/wiki/Game_modifier/Autopilot) fall in that category.
 
