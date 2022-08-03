@@ -1,7 +1,6 @@
 # Rozhraní
 
-Tento článek se věnuje osu! klientovi. Najdete zde informace ohlendně obrazovky výběru skladby, ukazatele žebříčků a obrazovky výsledného skóre.
-Když zapnete klienta uvidíte tuto obrazovku:
+Tento článek vysvětluje vše, co potřebujete vědět o používání herního klienta osu!. Najdete zde informace ohledně obrazovky výběru skladby, ukazatele žebříčků a obrazovky výsledného skóre. Po spuštění herního klienta se zobrazí následující obrazovka:
 
 ![](img/intro-screen.jpg "Úvodní obrazovka")
 
@@ -9,18 +8,18 @@ Když zapnete klienta uvidíte tuto obrazovku:
 
 ![](img/main-menu.jpg "Hlavní menu")
 
-- \[1\] [osu! sušenka](/wiki/Client/Interface/Cookie). Po kliknutí na ní se zobrazí hlavní menu. Pulsuje podle [BPM](/wiki/Beatmapping/Beats_per_minute) aktuálně hrající písničky, kolem se roztahují sloupce vizualizéru audia. Pokud nehraje žádná písnička pulsuje na 60 BPM.
-- \[2\] Klikněte `Play` (nebo stiskněte `P`) pro hraní osu!, hrát se dá sám nebo s druhými.
-- \[3\] Klikněte `Edit` (nebo stiskněte `E`) pro editování [beatmapy](/wiki/Beatmap).
-- \[4\] Klikněte `Options` (nebo stiskněte `O`) pro otevření postranního panelu [nastavení](/wiki/Client/Options).
-- \[5\] Klikněte `Exit` (nebo stiskněte `Esc`) pro uzavření hry.
-- \[6\] Náhodný tip.
+- \[1\] [osu! sušenka](/wiki/Client/Interface/Cookie). Po kliknutí na ní se zobrazí hlavní menu. Pulsuje podle [BPM](/wiki/Beatmapping/Beats_per_minute) hudby a kolem se roztahují sloupce, které vizualizují zvukové spektrum. Pokud se nepřehrává žádná skladba, pulzuje pomalým tempem 60 BPM.
+- \[2\] Kliknutím na `Play` (nebo stisknutím `P`) si můžete zahrát hru osu! sami nebo s ostatními.
+- \[3\] Kliknutím na `Edit` (nebo stisknutím `E`) upravíte [beatmapu](/wiki/Beatmap).
+- \[4\] Kliknutím na `Options` (nebo stisknutím `O`) otevřete postranní panel [nastavení](/wiki/Client/Options).
+- \[5\] Kliknutím na `Exit` (nebo stisknutím `Esc`) ukončíte hru.
+- \[6\] Náhodný užitečný tip.
 - \[7\] [ppy](https://ppy.sh/) logo s autorskými informacemi. Odkazuje na [osu! webovou stránku](https://osu.ppy.sh/home).
 - \[8\] Pokud se vyskytnou problémy s připojením na [Bancho server](/wiki/Bancho_(server)) zobrazí se zde ikona rozbitého řetězu.
-- \[9\] [Herní chat](/wiki/Client/Interface/Chat_console), a na levo tlačítko pro jeho rozšíření, který zobrazí online hráče. Dá se také vyvolat pomocí `F8` a `F9`.
-- \[10\] Hra obsahuje svůj vlastní přehrávač hudby, který náhodně hraje písničky z vaší knihovny. Popis tlačítek níže.
-- \[11\] Počet dostupných [beatmap obtížností](/wiki/Beatmap/Difficulty). Dále také zobrazuje jak dlouho jste hráli, a váš systémový čas.
-- \[12\] Váš profil. Po kliknutí se zobrazí [možnosti uživatele](#user-options).
+- \[9\] [Herní chat](/wiki/Client/Interface/Chat_console) a vlevo od něj tlačítko pro jeho rozšíření, které zobrazuje seznam aktuálně online uživatelů. Dá se také vyvolat pomocí `F8` a `F9`.
+- \[10\] Hra obsahuje svůj vlastní přehrávač hudby, který náhodně přehrává skladby z vaší knihovny. Popis tlačítek níže.
+- \[11\] Počet dostupných [beatmap obtížností](/wiki/Beatmap/Difficulty), doba, po kterou hrajete, a váš systémový čas.
+- \[12\] Váš profil. Kliknutím na něj se zobrazí [možnosti uživatele](#user-options).
 
 ---
 
@@ -28,26 +27,26 @@ Herní přehrávač má následující tlačítka:
 
 | Button | Description |
 | :-: | :-- |
-| ![](img/jukebox/previous-track.jpg "Previous track") | Minulá skladba |
+| ![](img/jukebox/previous-track.jpg "Previous track") | Předchozí skladba |
 | ![](img/jukebox/play.jpg "Play") | Play |
 | ![](img/jukebox/pause.jpg "Pause") | Pause |
 | ![](img/jukebox/stop.jpg "Stop the music!") | Zastavení přehrávání a přesunutí skladby na začátek |
-| ![](img/jukebox/next-track.jpg "Next track") | Další skladba |
-| ![](img/jukebox/view-song-info.jpg "View song info") | Výběr mezi pernamentě zobrazenými informacemi o skladbně nebo dočasným zobrazením, které po čase zmizí. |
-| ![](img/jukebox/jump-to-window.jpg "Jump To window") | Přeskočení na konkrétní skladbu. Můžete zde skladby vyhledávat nebo si je filtrovat pomocí Kolekcí. |
+| ![](img/jukebox/next-track.jpg "Next track") | Následující skladba |
+| ![](img/jukebox/view-song-info.jpg "View song info") | Přepínač mezi trvalým zobrazením informací o aktuální skladbě a jejich zhasnutím po určité době. |
+| ![](img/jukebox/jump-to-window.jpg "Jump To window") | Přeskočení na konkrétní skladbu. Skladby můžete vyhledávat nebo filtrovat podle kolekce. |
 
-Herní přehrávač se dá navíc ovládat pomocí [klávesových zkratek](/wiki/Client/Keyboard_shortcuts#jukebox).
+Herní přehrávač lze ovládat také pomocí [klávesových zkratek](/wiki/Client/Keyboard_shortcuts#jukebox).
 
 ## Možnosti uživatele
 
 ![](img/user-options.jpg "User options")
 
-Zpřístupníte klikntuním na váš profil vlevo nahoře v hlavním menu. Položky můžete vybírat pomocí přiřazeného čísla nebo kliknutím:
+Na tuto obrazovku se dostanete kliknutím na svůj profil v levé horní části hlavní nabídky. Kteroukoli položku můžete vybrat stisknutím jejího příslušného čísla:
 
-- `1. View Profile`: Zobrazí váš profil na webové stránce.
-- `2. Sign Out`: Odhlásí vás z vašeho účtu. Po odhlášení vás hra bude žádat o opětovné přihlášení.
+- `1. View Profile`: Zobrazí váš profil na webových stránkách.
+- `2. Sign Out`: Odhlášení z vašeho účtu. Po odhlášení vás hra vyzve k opětovnému přihlášení.
 - `3. Change Avatar`: Otevře [stránku na úpravu avataru](https://osu.ppy.sh/home/account/edit#avatar).
-- `4. Close`: Zavře dialog.
+- `4. Close`: Zavře toto dialogové okno.
 
 ## Play menu
 
@@ -55,9 +54,9 @@ Zpřístupníte klikntuním na váš profil vlevo nahoře v hlavním menu. Polo�
 
 Po vybrání `Play` v hlavním menu, dostanete tři možnosti:
 
-- Klikněte `Solo` (nebo stiskněte `P`) pro hru pro jednoho hráče. Tato možnost vede na [obrazovku výběru skladby](#song-select).
-- Klikněte `Multi` (nebo stiskněte `M`) pro hru pro více hráčů. Tato možnost vede do [Multi](/wiki/Client/Interface/Multiplayer) Lobby.
-- Klikněte `Back` a vratíte se do hlavního menu.
+- Klikněte `Solo` (nebo stiskněte `P`) pro samostatné hraní. Tato možnost vede na [obrazovku výběru skladby](#song-select).
+- Klikněte `Multi` (nebo stiskněte `M`) pro hraní s více hráči. Tato možnost vede do [Multi](/wiki/Client/Interface/Multiplayer) Lobby.
+- Klikněte `Back` pro návrat do hlavního menu.
 
 ## Místnost pro více hráčů
 
@@ -65,7 +64,7 @@ Po vybrání `Play` v hlavním menu, dostanete tři možnosti:
 
 ![](img/multi-lobby.jpg "Multiplayer lobby")
 
-Místnost pro více hráčů, anglicky "Multiplayer lobby",umožnuje hrát spolu nebo proti ostatním hráčům.
+Místnost pro více hráčů, anglicky "Multiplayer lobby", umožňuje hrát spolu nebo proti ostatním hráčům.
 
 ## Výběr skladeb
 
@@ -79,25 +78,25 @@ Ikona momentálně vybraného [herního módu](/wiki/Game_mode) jde vidět v mo�
 - ![](/wiki/shared/mode/catch.png) je [osu!catch](/wiki/Game_mode/osu!catch)
 - ![](/wiki/shared/mode/mania.png) je [osu!mania](/wiki/Game_mode/osu!mania)
 
-Jelikož má tato obrazovka příliš mnoho elementů na to aby byla po očíslování jednoduše čitelná, rozdělím je do podsekcí ve kterých se budu věnovat konkrétní části. Obrazovka je popsána od zhora dolů a zleva doprava.
+Než budete pokračovat, tato obrazovka obsahuje příliš mnoho prvků, než aby bylo možné je poznamenat pomocí snadno viditelných čísel. V následujících podkapitolách se zaměříme vždy na jednu část obrazovky, a to shora dolů a zleva doprava.
 
 ### Informace beatmapy
 
 ![](img/metadata-comparison.jpg)
 
-Tato část zobrazuje **informace o aktuálně vybrané obtížnosti.** Po vstupu do obrazovky výběru skladeb se automaticky vybírá skladba která hrála v hlavním menu. Ikona vlevo nahoře reprezentuje [kategorii beatmapy](/wiki/Beatmap/Category), která je na tomto obrázku [hodnocená](/wiki/Beatmap/Category#ranked).
+Tato část zobrazuje **informace o aktuálně vybrané obtížnosti.** Po vstupu do obrazovky výběru skladeb se automaticky zvolí skladba, která hrála v hlavním menu. Ikona vlevo nahoře reprezentuje [kategorii beatmapy](/wiki/Beatmap/Category), která je na tomto obrázku [hodnocená](/wiki/Beatmap/Category#ranked).
 
-Název skladby se normálně ukazuje romanizovaně (dolní obrázek), ale pokud zapnete v [Nastavení](/wiki/Client/Options) možnost `Preferovat metadata v originálním jazyce`, název se ukáže v unicódu (horní obrázek). Název obtížnosti je mezi hranatými závorkami (`[]`). Tvůrce mapy je pod názvem mapy, níže najdeme další informace. Zleva doprava, hodnoty jsou:
+Název skladby se obvykle zobrazuje romanizovaně (dolní obrázek), ale pokud zapnete v [Nastavení](/wiki/Client/Options) možnost `Preferovat metadata v originálním jazyce`, název se ukáže v unicódu (horní obrázek). Název obtížnosti je mezi hranatými závorkami (`[]`). Tvůrce mapy je pod názvem mapy, níže najdeme další informace. Zleva doprava, hodnoty jsou:
 
 - **Délka**: Celková délka mapy od začátku do konce včetně přestávek. Nezaměňovat s [drain time](/wiki/Gameplay/Drain_time).
-- **BPM**: *Úhozy za minutu*, tempo skladby. Pokud zde jsou dvě hodnoty, a jedna v závorce, znamená to, že se BPM ve skladbě mění. První číslo je nejnižší BPM, druhé nejvyšší BPM a číslo v závorce je nejčastější BPM v beatmapě.
+- **BPM**: *Úhozy za minutu*, tempo skladby. Pokud jsou zde uvedeny dvě hodnoty a jedna v závorce, znamená to, že se BPM v průběhu skladby mění. Zobrazuje nejpomalejší a nejrychlejší BPM. Honota v závorce je nejčastější BPM v beatmapě.
 - **Objekty**: Celkový počet [objektů](/wiki/Hit_object) v beatmapě.
 - **Kruhy**: Celkový počet [kruhů](/wiki/Hit_object/Hit_circle) (osu! a osu!taiko), [fruits](/wiki/Hit_object/Fruit) (osu!catch), nebo normálních not v (osu!manii) v beatmapě.
 - **Slidery**: Celkový počet [sliderů](/wiki/Hit_object/Slider) (osu!), drumrolls (osu!taiko), [fruit streams](/wiki/Hit_object/Juice_stream) (osu!catch), nebo hold not (osu!mania) v beatmapě.
 - **Spinnery**: Celkový počet [spinnerů](/wiki/Hit_object/Spinner) (osu!), dendens (osu!taiko), nebo [banana showers](/wiki/Hit_object/Banana) (osu!catch) v beatmapě.
 - **OD**: [Overall difficulty](/wiki/Beatmapping/Overall_difficulty) beatmapy.
 - **HP**: [HP drain rate](/wiki/Beatmapping/HP_drain_rate). Více o [health](/wiki/Gameplay/Health).
-- **Stars**: [Star rating](/wiki/Beatmapping/Star_rating) beatmapy. Počet hvězd je viditelný na záložce beatmapy. *Po zbytek stránky budu psát Star rating.*
+- **Stars**: [Star rating](/wiki/Beatmapping/Star_rating) beatmapy. Počet hvězd je také snadno viditelný na záložce beatmapy.
 
 ### Seskupování a seřezování
 
