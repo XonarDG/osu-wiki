@@ -86,10 +86,10 @@ Než budete pokračovat, tato obrazovka obsahuje příliš mnoho prvků, než ab
 
 Tato část zobrazuje **informace o aktuálně vybrané obtížnosti.** Po vstupu do obrazovky výběru skladeb se automaticky zvolí skladba, která hrála v hlavním menu. Ikona vlevo nahoře reprezentuje [kategorii beatmapy](/wiki/Beatmap/Category), která je na tomto obrázku [hodnocená](/wiki/Beatmap/Category#ranked).
 
-Název skladby se obvykle zobrazuje romanizovaně (dolní obrázek), ale pokud zapnete v [Nastavení](/wiki/Client/Options) možnost `Preferovat metadata v originálním jazyce`, název se ukáže v unicódu (horní obrázek). Název obtížnosti je mezi hranatými závorkami (`[]`). Tvůrce mapy je pod názvem mapy, níže najdeme další informace. Zleva doprava, hodnoty jsou:
+Název skladby se obvykle zobrazuje romanizovaně (dolní obrázek), ale pokud zapnete v [Nastavení](/wiki/Client/Options) možnost `Preferovat metadata v originálním jazyce`, název se ukáže v unikódu (horní obrázek). Název obtížnosti je mezi hranatými závorkami (`[]`). Tvůrce mapy je pod názvem mapy, níže najdeme další informace. Zleva doprava, hodnoty jsou:
 
 - **Délka**: Celková délka mapy od začátku do konce včetně přestávek. Nezaměňovat s [drain time](/wiki/Gameplay/Drain_time).
-- **BPM**: *Úhozy za minutu*, tempo skladby. Pokud jsou zde uvedeny dvě hodnoty a jedna v závorce, znamená to, že se BPM v průběhu skladby mění. Zobrazuje nejpomalejší a nejrychlejší BPM. Honota v závorce je nejčastější BPM v beatmapě.
+- **BPM**: *Úhozy za minutu*, tempo skladby. Pokud jsou zde uvedeny dvě hodnoty a jedna v závorce, znamená to, že se BPM v průběhu skladby mění. Zobrazuje nejpomalejší a nejrychlejší BPM. Hodnota v závorce je nejčastější BPM v beatmapě.
 - **Objekty**: Celkový počet [objektů](/wiki/Hit_object) v beatmapě.
 - **Kruhy**: Celkový počet [kruhů](/wiki/Hit_object/Hit_circle) (osu! a osu!taiko), [fruits](/wiki/Hit_object/Fruit) (osu!catch), nebo normálních not v (osu!manii) v beatmapě.
 - **Slidery**: Celkový počet [sliderů](/wiki/Hit_object/Slider) (osu!), drumrolls (osu!taiko), [fruit streams](/wiki/Hit_object/Juice_stream) (osu!catch), nebo hold not (osu!mania) v beatmapě.
@@ -98,11 +98,11 @@ Název skladby se obvykle zobrazuje romanizovaně (dolní obrázek), ale pokud z
 - **HP**: [HP drain rate](/wiki/Beatmapping/HP_drain_rate). Více o [health](/wiki/Gameplay/Health).
 - **Stars**: [Star rating](/wiki/Beatmapping/Star_rating) beatmapy. Počet hvězd je také snadno viditelný na záložce beatmapy.
 
-### Seskupování a seřezování
+### Seskupování a seřazování
 
 ![](img/beatmap-filters.jpg)
 
-Kliknutím na jednu ze záložek **seřadíte nebo seskupíte seznam skladeb podle vybráného kritéria**.
+Kliknutím na jednu ze záložek **seřadíte nebo seskupíte seznam skladeb podle vybraného kritéria**.
 
 #### Seskupení
 
@@ -135,9 +135,9 @@ Seřadí mapy v určitém řádu.
 | Kritérium řazení | Popis |
 | :-: | :-- |
 | `Podle Umělce` | Beatmapy budou abecedně seřazeny podle názvu umělce. |
-| `Podle BPM` | Beatmapy budou seřeazeny od nejvyššího po nejnižší, pokud má mapa více BPM bere se to nejvyšší. |
+| `Podle BPM` | Beatmapy budou seřazeny od nejvyššího po nejnižší, pokud má mapa více BPM bere se to nejvyšší. |
 | `Podle Autora` | Beatmapy budou abecedně seřazeny podle jejich autora. |
-| `Podle Data Přidání` | Beatmapy budou seřazany podle toho kdy byly přidány, od nejstraší po nejnovější. |
+| `Podle Data Přidání` | Beatmapy budou seřazeny podle toho kdy byly přidány, od nejstarší po nejnovější. |
 | `Podle Obtížnosti` | Beatmapy budou seřazeny podle jejich Star ratingu, od nejjednodušší po nejtěžší. *Pozor! Toto rozdělí obtížnosti beatmap.* |
 | `Podle Délky` | Beatmapy budou seřazeny podle jejich délky, od nejkratší po nejdelší. |
 | `Podle Dosáhnutého Ranku` | Beatmapy budou seřazeny podle na nich dosaženém ranku, od nejhoršího po nejlepší. |
@@ -147,7 +147,7 @@ Seřadí mapy v určitém řádu.
 
 ![](img/search-bar.jpg)
 
-*Poznámka: Při hledání nemůžete mít otevřený chat nebo postraní panel nastavení, pokud tomu tak bude všechno co napíšete bude vnímáno jako chatovací text nebo hledání v postraním panelu nastavení. *
+*Poznámka: Při hledání nemůžete mít otevřený chat nebo postranní panel nastavení, pokud tomu tak bude všechno co napíšete bude vnímáno jako chatový text nebo hledání v postranním panelu nastavení. *
 
 Po vyhledání se zobrazí pouze beatmapy splňující vámi zadanými kritérii. Ve výchozím stavu bude každé hledání srovnáváno s umělci, názvy, autory, a tagy beatmapy.
 
@@ -165,7 +165,7 @@ Podporované filtry:
 | `cs` | [Circle Size](/wiki/Beatmapping/Circle_size) |
 | `od` | [Overall Difficulty](/wiki/Beatmapping/Overall_difficulty) |
 | `hp` | [HP drain rate](/wiki/Beatmapping/HP_drain_rate) |
-| `key`, `keys` | Počet kláves (pouze beatmapy osu!mania nebo jejich koverty) |
+| `key`, `keys` | Počet kláves (pouze beatmapy osu!mania nebo jejich konverty) |
 | `star`, `stars` | [Star rating](/wiki/Beatmapping/Star_rating) |
 | `bpm` | BPM, *úhozy za minutu* |
 | `length` | Délka v sekundách |
@@ -197,11 +197,11 @@ Můžete také vyhledat ID číslo obtížnosti a dostat jeden výsledek, tedy p
 
 - Oznámení `Not Submitted` oznamuje že beatmapa nebyla nahrána na osu! webovou stránku pomocí [Beatmap Submission System](/wiki/Submission) nebo byla vymazána autorem.
 - Oznámení `Update to latest version` se ukáže pokud je pro beatmapu dostupná nová verze. Klikněte pro stáhnutí aktualizace.
-  - *Upozornění: Po aktualizaci mapy se vymažou veškerá lokální scóre na mapě. Replaye se dají uložit pravým kliknutím na scóre.*
+  - *Upozornění: Po aktualizaci mapy se vymažou veškerá lokální skóre na mapě. Replaye se dají uložit pravým kliknutím na skóre.*
 - Oznámení `Latest pending version` znamená že mapa sice je nahraná na osu! webovou stránku, ale není hodnocená.
 - Pokud existují replaye, respektive skóre, odpovídající nastavení žebříčkům, budou zobrazeny namísto ostatních oznámení. Toto je možno vidět na obrázku výše.
   - Pod veřejnými žebříčky (např. Globální, Státní, etc.), je zobrazeno vaše nejlepší skóre i s vašim umístěním na žebříčku beatmapy.
-- Oznámení `No records set!` znamená že pro aktuální nastavení žebříčku nejsou žádné replaye dostupné (najčastěji se objevuje v lokálním žebříčku pokud byla beatmapa právě stáhnuta nebo změnena).
+- Oznámení `No records set!` znamená že pro aktuální nastavení žebříčku nejsou žádné replaye dostupné (nejčastěji se objevuje v lokálním žebříčku pokud byla beatmapa právě stáhnuta nebo změněna).
 
 Zde jsou všechna nastavení žebříčku:
 
@@ -232,7 +232,7 @@ Beatmapové menu zobrazuje všechny dostupné beatmapy. Odlišné beatmapy mohou
 | **Světle modrá** | Beatmapa má více než jednu obtížnost. |
 | **Bílá** | Aktuálně vybraná obtížnost. |
 
-Seznam beatmap můžete posunovat kolečkem u myši, kurzorovými klávesami, tažením a podržením levého tlačítka myší nebo držením pravého tlačítka myši (známé jako absolutní scrollování), které posune seznam na Y pozici myši. Kliknutím na mapu vyberete mapu, poté ji klikněte znovu, nebo stiskněte `Enter` nebo klikněte osu! cookie v pravém dolním rohu pro spuštění beatmapy.
+Seznam beatmap můžete posunovat kolečkem u myši, kurzorovými klávesami, tažením a podržením levého tlačítka myší nebo držením pravého tlačítka myši (známé jako absolutní scrollování), které posune seznam na Y pozici myši. Kliknutím na mapu vyberete mapu, poté ji klikněte znovu, stiskněte `Enter` nebo klikněte osu! cookie v pravém dolním rohu pro spuštění beatmapy.
 
 ### Herní nástroje
 
@@ -240,47 +240,47 @@ Seznam beatmap můžete posunovat kolečkem u myši, kurzorovými klávesami, ta
 
 ![](img/gameplay-toolbox.jpg)
 
-Tato část se může nazývat Sadou Herních Nástrojů. Budeme se věnovat jednotlivým tlačítkům zleva doprava.
+Tato část se můžeme nazývat Sadou Herních Nástrojů. Budeme se věnovat jednotlivým tlačítkům zleva doprava.
 
-Stikněte `Esc` nebo klikněte tlačítko `Back` pro vrácení do hlavního menu.
+Stiskněte `Esc` nebo klikněte tlačítko `Back` pro vrácení do hlavního menu.
 
 Klikněte na tlačítko `Mode` a otevře se vám seznam herních módů v osu!. Alternativně můžete stisknout `Ctrl` společně s `1` (osu!), `2` (osu!taiko), `3` (osu!catch), nebo `4` (osu!mania) a změnit tím herní mód. Přepnutím do jiného herního módu se přepnou i [žebříčky](/wiki/Ranking), což lze také vidět na změně vašeho ranku.
 
 ![](img/game-modifiers.jpg "Okno výběru modifikací")
 
-Klikněte na tlačítko `Mods` nebo stiskněte `F1` pro otevření **[okno výběru modifikací](/wiki/Game_modifier)**.
+Klikněte na tlačítko `Mods` nebo stiskněte `F1` pro otevření **[okna výběru modifikací](/wiki/Game_modifier)**.
 
-In this screen, you can apply modifications ("mods" for short) to gameplay. Some mods lower difficulty and apply a multiplier that lowers the score you achieve. Conversely, some mods increase the difficulty, but apply a multiplier that increases the score you achieve. Finally, some mods modify gameplay in a different way. [Relax](/wiki/Game_modifier/Relax) and [Auto Pilot](/wiki/Game_modifier/Autopilot) fall in that category.
+V tomto okně můžete aplikovat modifikace (zkráceně "módy"). Některé módy snižují obtížnost, a nastaví násobič, který sníží dosažitelné skóre. Naopak zde máme módy které obtížnost zvýší, ale nastaví násobič, který zvýší dosažitelné skóre. Nakonec zde jsou módy které mění hru jiným způsobem. Do této kategorie patří [Relax](/wiki/Game_modifier/Relax) a [Auto Pilot](/wiki/Game_modifier/Autopilot).
 
-Place your mouse on a mod's icon to see a short description of its effect. Click on an icon to select or deselect that mod. Some mods, like Double Time, have multiple variations — click on the mod again to cycle through them. The score multiplier value displays the combined effect all selected mods will have on your score. Click `Reset all mods` or press `1` to deselect all currently selected mods. Click `Close` or press `2` or `Esc` to return to the song selection screen.
+Ukázáním myší na ikonu módu dostanete krátký popis jeho efektu. Kliknutím na ikonu módu se mód vybere nebo odebere. Některé módy, například Double Time, mají několik verzí — po opětovném kliknutí se mód změní na svoji druhou verzi. Hodnota Násobiče Skóre, ve hře "Score Multiplier", vyjadřuje kombinovaný efekt vámi vybranými módy na dosažitelném skóre. Kliknutím na `Vypnout všechny módy` nebo stisknutím `1` odeberete veškeré vybrané módy. Pro vrácení do obrazovky výběru skladeb klikněte `Zavřít` nebo zmáčkněte `2` či `Esc`.
 
-Click the `Random` button or press `F2` to have the game **randomly scroll through all of your beatmaps and pick one.**
+Kliknutím na `Random` nebo zmáčknutím `F2` vám hra **náhodně vybere beatmapu z vaší knihovny.**
 
-*Note: You can press `Shift` + the `Random` button or `F2` to go back to the beatmap you had selected before you randomised your selection.*
+*Poznámka: Stisknutím `Shift` + tlačítka `Random` nebo stisknutím `F2` se vrátíte na poslední mapu před minulým náhodným výběrem.*
 
 ![](img/beatmap-options.jpg "Possible commands for a beatmap")
 
-Click the `Beatmap Options` button, press `F3` or right-click your mouse while hovering over the beatmap to bring up the **beatmap options menu for options on the currently selected beatmap**.
+Kliknutím na `Beatmap Options`, stisknutím `F3` nebo kliknutím pravého tlačítka myši na beatmapu zobrazíte **menu možností pro právě vybranou beatmapu**.
 
-- Press `1` or click the `Manage Collections` button to bring up the collection manager — here, you can manage pre-existing collections, as well as add or remove the currently selected beatmap or mapset to or from a collection.
-- Press `2` or click `Delete...` to delete the \[1\] currently selected difficulty, \[2\] delete the currently selected beatmap, or \[3\] delete **all VISIBLE beatmaps**.
-  - Note that deleted beatmaps are moved to the Recycle Bin.
-- Press `3` or click `Remove from Unplayed` to mark an unplayed beatmap as played (that is, change its box colour from pink to orange).
-- Press `4` or click `Clear local scores` to delete all records of the scores you have achieved in this beatmap.
-- Press `5` or click `Edit` to open the selected beatmap in osu!'s editor.
-- Press `6` or `Esc` or click `Close` to return to the song selection screen.
+- Stisknutím `1` nebo kliknutím na `Spravovat sbírky` zobrazíte správce Kolekcí — zde můžete spravovat své kolekce, do kterých poté můžete přidávat nebo odebírat obtížnosti nebo celé mapsety beatmap.
+- Stisknutím `2` nebo kliknutím na `Vymazat...` pro vymazání \[1\] vybrané beatmapy, *celého mapsetu*, \[2\] vybrané obtížnosti, nebo \[3\] **vymazání VŠECH VIDITELNÝCH beatmap**.
+  - Pamatujte že vymazané beatmapy jsou přesunuty do koše.
+- Stisknutím `3`nebo kliknutím na `Odstranit z ještě nehraných` pro označení nehrané beatmapy na hranou (to znamená změnit její barvu z růžové na oranžovou).
+- Stisknutím `4` nebo kliknutím na `Vymazat všechna lokální skóre` pro vymazání všech zaznamenaných skórů na beatmapě.
+- Stisknutím `5` nebo kliknutím na `Změnit` pro otevření vybrané beatmapy do osu! editoru.
+- Stisknutím `6`, `Esc` nebo kliknutím na `Zrušit` pro vrácení do obrazovky výběru skladeb.
 
-Click on **your user panel** to access the **user options menu**.
+Kliknutím na **váš uživatelský panel** dostanete přístup do **menu uživatelských možností**.
 
-Click on the **[osu! cookie](/wiki/Client/Interface/Cookie)** to **start playing the selected beatmap**.
+Kliknutím na **[osu! cookie](/wiki/Client/Interface/Cookie)** **spustíte vybranou beatmapu**.
 
-## Results screen
+## Obrazovka výsledku
 
 ![](img/results-osu.jpg "Accuracy in osu!")
 
-This is the results screen shown after you have successfully passed the beatmap. You can access your online results by scrolling down or pressing the obvious button.
+Toto je obrazovka s výsledky, která se zobrazí po dokončení beatmapy. Váš online výsledek zobrazíte posunutím obrazovky dolů nebo kliknutím na zřejmé tlačítko.
 
-Below are the results screens of the other game modes.
+Níže jsou výsledkové obrazovky ostatních herních módů.
 
 ![](img/results-taiko.jpg "Accuracy in osu!taiko")
 
@@ -288,39 +288,39 @@ Below are the results screens of the other game modes.
 
 ![](img/results-catch.jpg "Accuracy in osu!catch")
 
-### Extended results screen
+### Rozšířená obrazovka výsledku
 
 ![](img/extended-results-screen.jpg "An example of an online osu! score")
 
-This is your online leaderboard. You can go here by scrolling down from the results screen. Your local scoreboard will show your name and the score as usual.
+Toto je váš online žebříček. Zde se dostanete potažením výsledkové obrazovky dolů. Na místní výsledkové tabuli se jako objeví vaše jméno a skóre.
 
-- \[1\] Your user panel. It shows your [performance points (pp)](/wiki/Performance_points), global rank, total score, overall [accuracy](/wiki/Gameplay/Accuracy), and level bar.
-- \[2\] `Save replay to Replays folder`: You can watch the replay later either by opening it from a local leaderboard, or by going to `Replays` directory and double clicking it.
-- \[3\] `Add as online favourite`: Include the beatmap into your list of favourites, which is located on your osu! profile page under the `Beatmaps` section.
-- \[4\] Local leaderboard: All your results are stored on your computer. To see them, navigate to the [song selection screen](#song-select) and select `Local Rankings` from the drop-down menu above the scoreboard.
-- \[5\] `Beatmap Ranking` section. Available only for maps with online leaderboards ([qualified](/wiki/Beatmap/Category#qualified), [ranked](/wiki/Beatmap/Category#ranked), or [loved](/wiki/Beatmap/Category#loved)). You also need to be online to see this section. See below for more details.
-- \[6\] `Overall Ranking` section. It's available only for beatmaps with online leaderboards. You also need to be online to see this section. See below for more details.
-- \[7\] Information about the beatmap with its play count and pass rate.
-- \[8\] Beatmap rating. Use your personal discretion based on whether you enjoyed the beatmap or not. Best left alone if you can't decide.
-- \[9\] Click here to return to the song selection screen.
+- \[1\] Uživatelský panel. Ukazuje [performance points (pp)](/wiki/Performance_points), globální rank, celkové skóre, celkovou [přesnost](/wiki/Gameplay/Accuracy), a ukazatel úrovně.
+- \[2\] `Uložit záznam do Složky záznamů`: Na svůj replay se můžete podívat přes lokální žebříček, nebo běžte do složky `Replays` a na replay klikněte dvojklikem.
+- \[3\] `Přidat do oblíbených`: Přidejte beatmapu do svých oblíbených, které jsou na vaši osu! stránce v kategorii `Beatmapy`.
+- \[4\] Lokální žebříček: Všechny vaše výsledky jsou uloženy na vašem počítači. Pro jejich zobrazení běžte do [obrazovky výběru skladby](#song-select) a vyberte `Lokální` z nabídky nad žebříčkovou tabulkou.
+- \[5\] `Beatmap Ranking`. Dostupné pouze pro beatmapy s online žebříčky ([kvalifikované](/wiki/Beatmap/Category#qualified), [hodnocené](/wiki/Beatmap/Category#ranked), nebo [loved](/wiki/Beatmap/Category#loved)). Pro zobrazení musíte být online. Více informací níže.
+- \[6\] `Overall Ranking`. Dostupné pouze pro beatmapy s online žebříčky. Pro zobrazení musíte být online. Více informací níže.
+- \[7\] Informace o beatmapě, počet zahrání a úspěšnost.
+- \[8\] Uživatelské hodnocení beatmapy. Rozhodněte se podle sebe, zda se vám mapa líbila či nikoli. Pokud se nemůžete rozhodnout bude nejlepší nechat prázdné.
+- \[9\] Zde klikněte, nebo stiskněte `Esc`, pro vrácení se do obrazovky výběru skladby.
 
 ---
 
-The categories in the ranking panel are as follows:
+Kategorie na panelu hodnocení jsou následující:
 
-| Category | Beatmap Ranking | Overall Ranking |
+| Kategorie | Hodnocení Beatmapy | Celkové Hodnocení |
 | :-: | :-- | :-- |
-| `Overall` | Your position on the map's leaderboard. Note that scores with [mods](/wiki/Game_modifier) also appear on this same leaderboard. | Your [global rank](/wiki/Ranking#performance-points-ranking) against everyone in the world. |
-| [`Accuracy`](/wiki/Gameplay/Accuracy) | How accurately you played the beatmap. This is only counted when your old score is surpassed. | A weighted average of the accuracy of your best scores. |
-| `Max Combo` | The longest combo on the map you played. | The longest combo over all beatmaps you have played. |
-| [`Ranked Score`](/wiki/Gameplay/Score/Ranked_score) | Your [best result](/wiki/Gameplay/Score/Ranked_score) on the beatmap. | The number of points earned from all ranked beatmaps that you have ever played, with every map being counted exactly once. |
-| [`Total Score`](/wiki/Gameplay/Score/Total_score) | Not taken into account, since it does not affect your position in online rankings. | Same as ranked score, but it takes into account all beatmaps available on the osu! website, including underplayed or failed beatmaps. This counts towards your [level](/wiki/Gameplay/Score/Total_score#level). |
-| [`Performance`](/wiki/Performance_points) | The amount of [unweighted pp](/wiki/Performance_points#why-didn't-i-gain-the-full-amount-of-pp-from-a-map-i-played?) you would receive for the play. | Your total amount of performance points, and how much pp the submitted play was worth. |
+| `Celkově` | Pozice na žebříčku beatmapy. Skóry s [módy](/wiki/Game_modifier) se zobrazují na stejném žebříčku. | [Globální hodnocení](/wiki/Ranking#performance-points-ranking) proti všem na světě. |
+| [`Přesnost`](/wiki/Gameplay/Accuracy) | S jakou přesností jste beatmapu zahráli. Počítá se pouze v případě kdy zlepšíte vaše poslední skóre. | Vážený průměr přesnosti vašich nejlepších skórů. |
+| `Max Combo` | Největší combo na mapě kterou jste hráli. | Největší combo ze všech map které jste hráli. |
+| [`Hodnocené skóre`](/wiki/Gameplay/Score/Ranked_score) | Váš [nejlepší výsledek](/wiki/Gameplay/Score/Ranked_score) na beatmapě. | Součet skóre ze všech hodnocených map které jste hráli. Každá mapa se přičítá pouze jednou. |
+| [`Celkové skóre`](/wiki/Gameplay/Score/Total_score) | Nezapočítáváno, jelikož nemění vaši pozici v Globálním ranku. | Stejné jako hodnocené skóre, ale bere v potaz všechny beatmapy dostupné na osu! stránce, včetně nedohraných nebo neúspěšných beatmap. Toto se započítává do vaší [úrovně](/wiki/Gameplay/Score/Total_score#level). |
+| [`Performance`](/wiki/Performance_points) | Hodnota [Neváženého pp](/wiki/Performance_points#why-didn't-i-gain-the-full-amount-of-pp-from-a-map-i-played?) kterou byste dostali z beatmapy. | Celkový počet pp, a jakou hodnotu měl výsledek. |
 
-### Medals
+### Medaile
 
-*Main page: [Medals](/wiki/Medals)*
+*Hlavní stránka: [Medaile](/wiki/Medals)*
 
 ![](img/medal-unlock.jpg "Unlocking a medal")
 
-Sometimes, when specific conditions are met, you may receive a medal.
+Pokud se spolu sejde několik podmínek, můžete dostat medaili.
